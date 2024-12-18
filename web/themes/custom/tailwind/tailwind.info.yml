@@ -1,0 +1,19 @@
+name: tailwindcss
+type: theme
+description: 'Drupal theme development with TailwindCSS'
+core_version_requirement: ^8 || ^11
+core: 11.x
+base theme: stable
+screenshot: screentshot.png
+regions:
+  header: Header
+  sidebar: Navigation
+  content: Content
+  footer: Footer
+  page_top: Page Top
+  page_bottom: Page Bottom
+libraries:
+  - tailwind/global-css
+  - tailwind/pacifico
+  - tailwind/global-fonts
+  - tailwind/alpine-js

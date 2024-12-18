@@ -1,0 +1,33 @@
+global-css:
+  version: Version
+  css:
+    theme:
+      css/styles.css: {}
+
+pacifico:
+  license:
+    name: SIL Open Font License 1.1
+    url: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+  css:
+    theme:
+      https://font.googleapis.com/css?family=Pacifico: { type: external}
+
+global-fonts:
+  css:
+    theme:
+      https://fonts.googleapis.com/css?family=Pacifico:400&display=swap: { type: external }
+      https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap: { type: external }
+
+alpine-js:
+  js:
+    https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js: {
+      type: external,
+      minified: true
+    }
+
+symplesmart.styles:
+  version: 1.0
+  css:
+    theme:
+      css/styles.css: {}
+      css/tailwindcss.css: {}
