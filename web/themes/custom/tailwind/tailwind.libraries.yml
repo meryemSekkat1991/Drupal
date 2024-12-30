@@ -1,8 +1,11 @@
 global-css:
-  version: Version
+  version: 1.x
   css:
     theme:
       css/styles.css: {}
+      dist/styles.css: {}
+      https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css:
+        type: external
 
 pacifico:
   license:
@@ -10,24 +13,19 @@ pacifico:
     url: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
   css:
     theme:
-      https://font.googleapis.com/css?family=Pacifico: { type: external}
+      https://fonts.googleapis.com/css?family=Pacifico:
+        type: external
 
 global-fonts:
   css:
     theme:
-      https://fonts.googleapis.com/css?family=Pacifico:400&display=swap: { type: external }
-      https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap: { type: external }
+      https://fonts.googleapis.com/css?family=Pacifico:400&display=swap:
+        type: external
+      https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap:
+        type: external
 
 alpine-js:
   js:
-    https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js: {
-      type: external,
+    https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js:
+      type: external
       minified: true
-    }
-
-tailwind.styles:
-  version: 1.0
-  css:
-    theme:
-      css/styles.css: {}
-      css/tailwindcss.css: {}

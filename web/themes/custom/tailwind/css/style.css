@@ -573,7 +573,10 @@ video {
   border-width: 1px;
 }
 
-body {
-  background: red;
+.social-bar {
+  display: none !important;
 }
 
+body {
+  @apply bg-black
+}
