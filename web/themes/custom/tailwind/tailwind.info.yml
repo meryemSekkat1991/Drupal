@@ -5,6 +5,16 @@ core_version_requirement: ^8 || ^11
 core: 11.x
 base theme: stable
 screenshot: screentshot.png
+regions:
+  header: "Header"
+  content: "Content"
+  content_bottom: "Content (bottom)"
+  primary_menu: "Primary Menu"
+  banner_top: "Banner (top)"
+  banner_bottom: "Banner (bottom)"
+  footer: "Footer"
+  page_top: "Page Top"
+  page_bottom: "Page Bottom"
 libraries:
   - tailwind/global-css
   - tailwind/pacifico
