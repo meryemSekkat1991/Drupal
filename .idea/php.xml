@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="PhpCodeSniffer">
+    <phpcs_settings>
+      <PhpCSConfiguration asDefaultInterpreter="true" />
+    </phpcs_settings>
+  </component>
   <component name="PhpIncludePathManager">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/psr/http-client" />
@@ -91,6 +96,9 @@
       <path value="$PROJECT_DIR$/web/core/modules/package_manager/tests/fixtures/fake_site/vendor/drupal/core" />
       <path value="$PROJECT_DIR$/web/core/modules/package_manager/tests/fixtures/fake_site/vendor/drupal/core-dev" />
       <path value="$PROJECT_DIR$/web/core/modules/package_manager/tests/fixtures/fake_site/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1">
